@@ -19,8 +19,10 @@ Now the resulting network has a predetermined style, ans should look like this:
 <img src=".\media\2.png" style="zoom:60%;" />
 
 
-Now we are going to change the style of the nwtwork according to new variables, for which we are going to make an enrichment from Uniprot Database using the Retrieve/ID mapping tool (https://www.uniprot.org/uploadlists/).
+Now we are going to change the style of the nwtwork according to new variables, for which we are going to make an enrichment from Uniprot Database using the Retrieve/ID mapping tool (https://www.uniprot.org/uploadlists/). Once you paste the list of proteins that you want to analyze, click on submit. At this point you can choose which information you want in your enrichment using the tool _Columns_ and checking those variables that you want to include.
 
 <img src=".\media\3.png" style="zoom:60%;" />
 
-You can dowload the results as an uncompressed Excel file. This file will be load into Cytoscape.
+You can dowload the results as an uncompressed Excel file. This file will be load into Cytoscape following these steps: _File > Import > Table from File_ and selecting the file with the enrichment information obtained from Uniprot. Now, in the pop-up window you can have a pre-visualization of the table. In this step it is important to set as a Key Column from the network "shared name"
+
+<img src=".\media\4.png" style="zoom:60%;" />
