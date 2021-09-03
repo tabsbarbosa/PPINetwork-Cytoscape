@@ -23,4 +23,4 @@ Now we are going to change the style of the nwtwork according to new variables, 
 
 <img src=".\media\3.png" style="zoom:60%;" />
 
-You can dowload the results as an uncrompressed Excel file. This file will be load into Cytoscape.
+You can dowload the results as an uncompressed Excel file. This file will be load into Cytoscape.
