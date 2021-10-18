@@ -3,7 +3,7 @@
 In this tutorial we are going to learn how to create a Protein-Protein Interaction Network in Cytoscape from a matrix of data which contains in Column A and Column B a list of proteins interacting with each other, and in a third column an interaction score between these proteins.
 
 ## Requirements
-+ Cytoscape v3.8.2
++ Cytoscape v3.8.2 or more recent.
 + Input file: T1T2T3-interacting-with-T4.xlsx
 
 ### Network Creation
