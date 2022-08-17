@@ -25,4 +25,4 @@ Now we are going to change the style of the nwtwork according to new variables, 
 
 You can dowload the results as an uncompressed Excel file. This file will be load into Cytoscape following these steps: _File > Import > Table from File_ and selecting the file with the enrichment information obtained from Uniprot. Now, in the pop-up window you can have a pre-visualization of the table. In this step it is important to set as a Key Column from the network "shared name"
 
-<img src=".\media\4.png" style="zoom:60%;" />
+<img src=".\media\pic3.png" style="zoom:60%;" />
