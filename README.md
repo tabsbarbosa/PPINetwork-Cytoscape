@@ -14,9 +14,12 @@
 <img src=".\media\1.png" style="zoom:60%;" />
 
 ## Data Enrichment from Uniprot Database and Modification of Network Style 
-Now the resulting network has a predetermined style, ans should look like this:
+Now the resulting network has a predetermined style, and should look like this:
 
 <img src=".\media\2.png" style="zoom:60%;" />
+
+We changed it to this according to our research goals:
+<img src=".\media\Protein-Protein Interaction Network.png" style="zoom:60%;" />
 
 
 Now we are going to change the style of the nwtwork according to new variables, for which we are going to make an enrichment from Uniprot Database using the Retrieve/ID mapping tool (https://www.uniprot.org/uploadlists/). Once you paste the list of proteins that you want to analyze, click on submit. At this point you can choose which information you want in your enrichment using the tool _Columns_ and checking those variables that you want to include.</div>
