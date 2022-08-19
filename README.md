@@ -4,7 +4,7 @@
 
 ## Requirements
 + Cytoscape v3.8.2 or more recent.
-+ Input file: 01_output_T1T2T3-interacting-with-T4.xlsx
++ Input file: 01_output_T1T2T3-interacting-with-T4.xlsx and 02_output_Target-groups
 
 ## Network Creation
 <div align="justify">1. In order to create a network from scratch from an .csv or .xlsx file we are going to use the function _Import Network from File_ or using Ctrl + L
@@ -26,13 +26,17 @@ Now we are going to change the style of the nwtwork according to new variables, 
 
 <img src=".\media\3.png" style="zoom:60%;" />
 
-<div align="justify">You can dowload the results as an uncompressed Excel file. This file will be load into Cytoscape following these steps: _File > Import > Table from File_ and selecting the file with the enrichment information obtained from Uniprot. Now, in the pop-up window you can have a pre-visualization of the table. In this step it is important to set as a Key Column from the network "shared name".</div>
+<div align="justify">You can dowload the results of the fucntional enrichment as an uncompressed Excel file. In order to load tables into Cytoscape we will be following these steps, for now we will test it with the file 02_output_Target-groups but you can do it with any .xlsx .txt .csv table:
+ 
+ _File > Import > Table from File_ and select the file
+ 
+ Now, in the pop-up window you can have a pre-visualization of the table. In this step it is important to set as a Key Column from the network "shared name".</div>
 
 <img src=".\media\pic3.png" style="zoom:60%;" />
 
 ## Network visualization
 
-<div align="justify">Customizing the style of the network can make it easier to identify nodes based on certain variables that are of interest. For this, colors, shapes or sizes can be assigned to the nodes of the network by assigning discrete or continuous variables recorded in the nodes table.</div>
+<div align="justify">Customizing the style of the network can make it easier to identify nodes based on certain variables that are of interest. For this, colors (according to target group), shapes (according to availability of a PDB ID) or sizes (according to Target Score) can be assigned to the nodes of the network by assigning discrete or continuous variables recorded in the nodes table.</div>
 
 <img src=".\media\pic4.png" style="zoom:60%;" />
 
@@ -46,3 +50,5 @@ Now we are going to change the style of the nwtwork according to new variables, 
 <div align="justify">Using the Apps > App Manager path, the installation and control menu for the apps offered by Cytoscape is opened. In this menu you will find information on all the apps that can be used for various functions or analyses. Depending on the Tag or label that each app has, you can find folders compiling similar apps. A brief description of the selected app is displayed in the right panel. From this panel you can install these apps, and review the complete documentation available on the Cytoscape page using the View on App Store button (http://apps.cytoscape.org/).</div>
 
 <img src=".\media\pic6.png" style="zoom:60%;" />
+
+Finally, you can check your results with our results downloading the file PPI-Final.cys
